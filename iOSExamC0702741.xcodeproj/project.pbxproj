@@ -15,6 +15,11 @@
 		7986603F1FC79371001CEE76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7986603D1FC79371001CEE76 /* LaunchScreen.storyboard */; };
 		7986604A1FC79372001CEE76 /* iOSExamC0702741Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798660491FC79372001CEE76 /* iOSExamC0702741Tests.swift */; };
 		798660551FC79372001CEE76 /* iOSExamC0702741UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798660541FC79372001CEE76 /* iOSExamC0702741UITests.swift */; };
+		798660631FC793E8001CEE76 /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798660621FC793E8001CEE76 /* AddEditViewController.swift */; };
+		798660651FC7978B001CEE76 /* SimpleTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798660641FC7978B001CEE76 /* SimpleTableView.swift */; };
+		798660681FC79889001CEE76 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798660661FC79889001CEE76 /* User+CoreDataClass.swift */; };
+		798660691FC79889001CEE76 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798660671FC79889001CEE76 /* User+CoreDataProperties.swift */; };
+		7986606B1FC79AD7001CEE76 /* SimpleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7986606A1FC79AD7001CEE76 /* SimpleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		798660501FC79372001CEE76 /* iOSExamC0702741UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSExamC0702741UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		798660541FC79372001CEE76 /* iOSExamC0702741UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSExamC0702741UITests.swift; sourceTree = "<group>"; };
 		798660561FC79372001CEE76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798660621FC793E8001CEE76 /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
+		798660641FC7978B001CEE76 /* SimpleTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableView.swift; sourceTree = "<group>"; };
+		798660661FC79889001CEE76 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		798660671FC79889001CEE76 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7986606A1FC79AD7001CEE76 /* SimpleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,8 @@
 		798660251FC79371001CEE76 = {
 			isa = PBXGroup;
 			children = (
+				798660661FC79889001CEE76 /* User+CoreDataClass.swift */,
+				798660671FC79889001CEE76 /* User+CoreDataProperties.swift */,
 				798660301FC79371001CEE76 /* iOSExamC0702741 */,
 				798660481FC79372001CEE76 /* iOSExamC0702741Tests */,
 				798660531FC79372001CEE76 /* iOSExamC0702741UITests */,
@@ -101,7 +113,10 @@
 			children = (
 				798660311FC79371001CEE76 /* AppDelegate.swift */,
 				798660331FC79371001CEE76 /* ViewController.swift */,
+				798660641FC7978B001CEE76 /* SimpleTableView.swift */,
+				7986606A1FC79AD7001CEE76 /* SimpleTableViewCell.swift */,
 				798660351FC79371001CEE76 /* Main.storyboard */,
+				798660621FC793E8001CEE76 /* AddEditViewController.swift */,
 				7986603B1FC79371001CEE76 /* Assets.xcassets */,
 				7986603D1FC79371001CEE76 /* LaunchScreen.storyboard */,
 				798660401FC79371001CEE76 /* Info.plist */,
@@ -262,6 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				798660651FC7978B001CEE76 /* SimpleTableView.swift in Sources */,
+				7986606B1FC79AD7001CEE76 /* SimpleTableViewCell.swift in Sources */,
+				798660631FC793E8001CEE76 /* AddEditViewController.swift in Sources */,
+				798660681FC79889001CEE76 /* User+CoreDataClass.swift in Sources */,
+				798660691FC79889001CEE76 /* User+CoreDataProperties.swift in Sources */,
 				798660341FC79371001CEE76 /* ViewController.swift in Sources */,
 				798660321FC79371001CEE76 /* AppDelegate.swift in Sources */,
 				7986603A1FC79371001CEE76 /* iOSExamC0702741.xcdatamodeld in Sources */,
